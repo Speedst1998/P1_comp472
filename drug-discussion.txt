@@ -1,0 +1,12 @@
+	No. the models all give different results. The Naive Bayes model gives a weighted F1 of 0.75.
+The decision tree, however, gives one of 0.98. This model is consistently better. We imagine that 
+if the model manages to converge into a decision tree, it means it figured out a pattern of questioning that almost always 
+gives the correct drug. If this is not the case, it means the model did not converge into a correct binary tree. 
+Binary trees, if correctly built, are more precise than probabilities. 
+
+	We also see that the perceptron model could only predict from two different drugs.
+What most likely happened is that a single perceptron can only provide a binary input
+and could only classify into two classes. This problem seems to be fixed when we add multiple
+layers of perceptrons to allow multiple features to be mapped to multiple pairs of classes.
+Each pair represented by one perceptron.	
+	
