@@ -1,0 +1,205 @@
+(a) *********** MultinomialNB default values, try1 **********
+(b)
+[[ 93   0   4   0   2]
+ [  1  74   0   0   2]
+ [  1   0  84   0   0]
+ [  0   0   0 118   0]
+ [  0   0   1   0  65]]
+(c)
+              precision    recall  f1-score   support
+
+           0       0.98      0.94      0.96        99
+           1       1.00      0.96      0.98        77
+           2       0.94      0.99      0.97        85
+           3       1.00      1.00      1.00       118
+           4       0.94      0.98      0.96        66
+
+    accuracy                           0.98       445
+   macro avg       0.97      0.97      0.97       445
+weighted avg       0.98      0.98      0.98       445
+
+(d)
+ 0.9752808988764045
+(e)
+
+Business words percentage:510
+Entertainment words percentage:386
+Politics words percentage:417
+Sports words percentage:511
+Tech words percentage:401
+(f)
+29421
+(g)
+
+Business words:164663
+Entertainment words:124893
+Politics words:185208
+Sports words:162953
+Tech words:198640
+(h)
+836357
+(i)
+
+Business zero words percentage:59.61048230855511
+Entertainment zero words percentage:60.317460317460316
+Politics zero words percentage:61.86397471194045
+Sports zero words percentage:64.06988205703409
+Tech zero words percentage:58.87971177050406
+(j)
+3.5177561735000724
+(k)
+Hockey:0.001210450987109961
+Football:0.031458931649196886*********** MultinomialNB default values, try2 **********
+(b)
+[[ 93   0   4   0   2]
+ [  1  74   0   0   2]
+ [  1   0  84   0   0]
+ [  0   0   0 118   0]
+ [  0   0   1   0  65]]
+(c)
+              precision    recall  f1-score   support
+
+           0       0.98      0.94      0.96        99
+           1       1.00      0.96      0.98        77
+           2       0.94      0.99      0.97        85
+           3       1.00      1.00      1.00       118
+           4       0.94      0.98      0.96        66
+
+    accuracy                           0.98       445
+   macro avg       0.97      0.97      0.97       445
+weighted avg       0.98      0.98      0.98       445
+
+(d)
+ 0.9752808988764045
+(e)
+
+Business words percentage:510
+Entertainment words percentage:386
+Politics words percentage:417
+Sports words percentage:511
+Tech words percentage:401
+(f)
+29421
+(g)
+
+Business words:164663
+Entertainment words:124893
+Politics words:185208
+Sports words:162953
+Tech words:198640
+(h)
+836357
+(i)
+
+Business zero words percentage:59.61048230855511
+Entertainment zero words percentage:60.317460317460316
+Politics zero words percentage:61.86397471194045
+Sports zero words percentage:64.06988205703409
+Tech zero words percentage:58.87971177050406
+(j)
+3.5177561735000724
+(k)
+Hockey:0.001210450987109961
+Football:0.031458931649196886(a) *********** MultinomialNB default values, try3 with 0.0001 smoothing **********
+(b)
+[[ 98   2   1   0   3]
+ [  0  74   2   0   3]
+ [  1   1  81   0   1]
+ [  0   0   0 107   0]
+ [  0   1   2   0  68]]
+(c)
+              precision    recall  f1-score   support
+
+           0       0.99      0.94      0.97       104
+           1       0.95      0.94      0.94        79
+           2       0.94      0.96      0.95        84
+           3       1.00      1.00      1.00       107
+           4       0.91      0.96      0.93        71
+
+    accuracy                           0.96       445
+   macro avg       0.96      0.96      0.96       445
+weighted avg       0.96      0.96      0.96       445
+
+(d)
+ 0.9617977528089887
+(e)
+
+Business words percentage:510
+Entertainment words percentage:386
+Politics words percentage:417
+Sports words percentage:511
+Tech words percentage:401
+(f)
+29423.9421
+(g)
+
+Business words:166163.47100010028
+Entertainment words:126028.65059999608
+Politics words:186434.8557000417
+Sports words:164456.41309997768
+Tech words:199819.78210006404
+(h)
+842903.1725001798
+(i)
+
+Business zero words percentage:0.0
+Entertainment zero words percentage:0.0
+Politics zero words percentage:0.0
+Sports zero words percentage:0.0
+Tech zero words percentage:0.0
+(j)
+3.4904365057142193
+(k)
+Hockey:0.0012700131574092041
+Football:0.03148982381118365(a) *********** MultinomialNB default values, try4 with 0.9 smoothing **********
+(b)
+[[103   0   6   0   4]
+ [  0  63   0   0   1]
+ [  0   0  87   0   1]
+ [  0   0   0 114   0]
+ [  0   0   0   0  66]]
+(c)
+              precision    recall  f1-score   support
+
+           0       1.00      0.91      0.95       113
+           1       1.00      0.98      0.99        64
+           2       0.94      0.99      0.96        88
+           3       1.00      1.00      1.00       114
+           4       0.92      1.00      0.96        66
+
+    accuracy                           0.97       445
+   macro avg       0.97      0.98      0.97       445
+weighted avg       0.97      0.97      0.97       445
+
+(d)
+ 0.9730337078651685
+(e)
+
+Business words percentage:510
+Entertainment words percentage:386
+Politics words percentage:417
+Sports words percentage:511
+Tech words percentage:401
+(f)
+55899.9
+(g)
+
+Business words:13668901.999999998
+Entertainment words:10345748.40000572
+Politics words:11226909.300002612
+Sports words:13693670.900007
+Tech words:10816678.900005937
+(h)
+59751909.50002127
+(i)
+
+Business zero words percentage:0.0
+Entertainment zero words percentage:0.0
+Politics zero words percentage:0.0
+Sports zero words percentage:0.0
+Tech zero words percentage:0.0
+(j)
+0.04923859384303813
+(k)
+Hockey:0.1831374918551494
+Football:0.19307307132894685

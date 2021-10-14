@@ -1,0 +1,1 @@
+The performance of steps 8 - 10 are better in terms of accuracy due to the fact that we are adding smothing. Smoothing is extrmeely necessary in this context due to the fact that most documents ahve a count of zero
