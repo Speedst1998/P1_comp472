@@ -1,0 +1,258 @@
+**********************************************************
+Gaussian Naive Bayes
+**********************************************************
+(b) Confusion Matrix: 
+[[ 5  3  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 11  0]
+ [ 1  3  4  2 14]]
+
+(c)
+Precisions:
+drugA: 0.8333333333333334
+drugB: 0.4
+drugC: 0.42857142857142855
+drugX: 0.8461538461538461
+drugY: 1.0
+
+Recalls:
+drugA: 0.625
+drugB: 1.0
+drugC: 1.0
+drugX: 1.0
+drugY: 0.5833333333333334
+
+F1 Measures:
+drugA: 0.7142857142857143
+drugB: 0.5714285714285715
+drugC: 0.6
+drugX: 0.9166666666666666
+drugY: 0.7368421052631579
+
+(d) Accuracy: 0.74, Macro F1: 0.707844611528822, Weighted F1: 0.7513508771929824
+
+**********************************************************
+Decision Tree
+**********************************************************
+(b) Confusion Matrix: 
+[[ 7  1  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 11  0]
+ [ 0  0  0  0 24]]
+
+(c)
+Precisions:
+drugA: 1.0
+drugB: 0.8
+drugC: 1.0
+drugX: 1.0
+drugY: 1.0
+
+Recalls:
+drugA: 0.875
+drugB: 1.0
+drugC: 1.0
+drugX: 1.0
+drugY: 1.0
+
+F1 Measures:
+drugA: 0.9333333333333333
+drugB: 0.888888888888889
+drugC: 1.0
+drugX: 1.0
+drugY: 1.0
+
+(d) Accuracy: 0.98, Macro F1: 0.9644444444444445, Weighted F1: 0.9804444444444446
+
+**********************************************************
+Grid Search Decision Tree
+'criterion': ['entropy']
+'max_depth': [3, 4]
+'min_samples_split': [3, 4, 5]
+**********************************************************
+(b) Confusion Matrix: 
+[[ 7  1  0  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 11  0]
+ [ 0  0  0  0 24]]
+
+(c)
+Precisions:
+drugA: 1.0
+drugB: 0.8
+drugC: 1.0
+drugX: 1.0
+drugY: 1.0
+
+Recalls:
+drugA: 0.875
+drugB: 1.0
+drugC: 1.0
+drugX: 1.0
+drugY: 1.0
+
+F1 Measures:
+drugA: 0.9333333333333333
+drugB: 0.888888888888889
+drugC: 1.0
+drugX: 1.0
+drugY: 1.0
+
+(d) Accuracy: 0.98, Macro F1: 0.9644444444444445, Weighted F1: 0.9804444444444446
+
+**********************************************************
+Perceptron
+**********************************************************
+(b) Confusion Matrix: 
+[[ 0  0  0  5  3]
+ [ 0  0  0  4  0]
+ [ 0  0  0  2  1]
+ [ 0  0  0 10  1]
+ [ 0  0  0 11 13]]
+
+(c)
+Precisions:
+drugA: 0.0
+drugB: 0.0
+drugC: 0.0
+drugX: 0.3125
+drugY: 0.7222222222222222
+
+Recalls:
+drugA: 0.0
+drugB: 0.0
+drugC: 0.0
+drugX: 0.9090909090909091
+drugY: 0.5416666666666666
+
+F1 Measures:
+drugA: 0.0
+drugB: 0.0
+drugC: 0.0
+drugX: 0.4651162790697674
+drugY: 0.619047619047619
+
+(d) Accuracy: 0.46, Macro F1: 0.2168327796234773, Weighted F1: 0.3994684385382059
+
+**********************************************************
+Multi-Layered Perceptron
+**********************************************************
+(b) Confusion Matrix: 
+[[ 0  0  0  6  2]
+ [ 0  2  0  2  0]
+ [ 0  0  0  2  1]
+ [ 0  0  0 10  1]
+ [ 0  1  0  4 19]]
+
+(c)
+Precisions:
+drugA: 0.0
+drugB: 0.6666666666666666
+drugC: 0.0
+drugX: 0.4166666666666667
+drugY: 0.8260869565217391
+
+Recalls:
+drugA: 0.0
+drugB: 0.5
+drugC: 0.0
+drugX: 0.9090909090909091
+drugY: 0.7916666666666666
+
+F1 Measures:
+drugA: 0.0
+drugB: 0.5714285714285715
+drugC: 0.0
+drugX: 0.5714285714285715
+drugY: 0.8085106382978724
+
+(d) Accuracy: 0.62, Macro F1: 0.39027355623100307, Weighted F1: 0.5595136778115503
+
+**********************************************************
+Grid Search MLP
+'activation': ['identity', 'logistic', 'tanh', 'relu']
+'hidden_layer_sizes': [(30, 50), (10, 10, 10)]
+'solver': ['adam']
+**********************************************************
+(b) Confusion Matrix: 
+[[ 4  3  1  0  0]
+ [ 0  4  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 11  0]
+ [ 0  1  0  5 18]]
+
+(c)
+Precisions:
+drugA: 1.0
+drugB: 0.5
+drugC: 0.75
+drugX: 0.6875
+drugY: 1.0
+
+Recalls:
+drugA: 0.5
+drugB: 1.0
+drugC: 1.0
+drugX: 1.0
+drugY: 0.75
+
+F1 Measures:
+drugA: 0.6666666666666666
+drugB: 0.6666666666666666
+drugC: 0.8571428571428571
+drugX: 0.8148148148148148
+drugY: 0.8571428571428571
+
+(d) Accuracy: 0.8, Macro F1: 0.7724867724867724, Weighted F1: 0.802116402116402
+
+
+**********************************************************
+#8 - GaussianNB
+**********************************************************
+Macro F1 Average: 0.7974625907078958| Macro F1 Standard deviation: 0.05389140131025282
+Weighted F1 Average: 0.8221278564263297| Weighted F1 Standard deviation: 0.045670515981054344
+Accuracy Average: 0.8160000000000001| Accuracy F1 Standard deviation: 0.045995168828427566
+
+
+**********************************************************
+#8 - DecisionTreeClassifier
+**********************************************************
+Macro F1 Average: 0.8293413888698398| Macro F1 Standard deviation: 0.06508371033236546
+Weighted F1 Average: 0.8579072711507322| Weighted F1 Standard deviation: 0.04758722372380227
+Accuracy Average: 0.852| Accuracy F1 Standard deviation: 0.05006662228138288
+
+
+**********************************************************
+#8 - GridSearchCV
+**********************************************************
+Macro F1 Average: 0.8380830394540204| Macro F1 Standard deviation: 0.039450870081382663
+Weighted F1 Average: 0.8587766626279816| Weighted F1 Standard deviation: 0.03566040244661844
+Accuracy Average: 0.854| Accuracy F1 Standard deviation: 0.03657564459825389
+
+
+**********************************************************
+#8 - Perceptron
+**********************************************************
+Macro F1 Average: 0.8576129156735968| Macro F1 Standard deviation: 0.04752756262869744
+Weighted F1 Average: 0.8744720590041952| Weighted F1 Standard deviation: 0.04047211662692648
+Accuracy Average: 0.87| Accuracy F1 Standard deviation: 0.04242640687119287
+
+
+**********************************************************
+#8 - MLPClassifier
+**********************************************************
+Macro F1 Average: 0.8159712075006427| Macro F1 Standard deviation: 0.05719325331049328
+Weighted F1 Average: 0.8483432444332211| Weighted F1 Standard deviation: 0.03485000184718796
+Accuracy Average: 0.842| Accuracy F1 Standard deviation: 0.03823901439919996
+
+
+**********************************************************
+#8 - GridSearchCV
+**********************************************************
+Macro F1 Average: 0.8014252733096212| Macro F1 Standard deviation: 0.05692964374420949
+Weighted F1 Average: 0.834473384105331| Weighted F1 Standard deviation: 0.0389790983621144
+Accuracy Average: 0.8260000000000001| Accuracy F1 Standard deviation: 0.04221637386396682
+
